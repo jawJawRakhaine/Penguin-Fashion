@@ -12,13 +12,24 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/cd557ce07f.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .btn:focus {
+        outline: none !important;
+        box-shadow: none !important;
+      }
+    </style>
   </head>
   <body>
     <!-- navbar -->
     <section style="background-color: #fffbf0; height: 100vh">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <div>
+          <div class="">
             <a class="navbar-brand" href="#"
               ><img
                 class="img-fluid ms-5"
@@ -80,9 +91,10 @@
       <!-- hero section -->
       <section class="container">
         <div class="row justify-content-center align-items-center">
-          <div class="col-sm-12 col-12 col-lg-6 mt-5">
-            <h1>
-              <span style="color: #fabe4c">BE THE PENGUIN</span> <br />
+          <div class="col-sm-12 col-12 col-lg-7 mt-5">
+            <h1 style="font-size: 80px; font-weight: 700">
+              <span style="color: #fabe4c">BE THE PENGUIN</span>
+              <br />
               OF WINTER
             </h1>
             <p>
@@ -90,9 +102,11 @@
               accusantium debitis itaque animi natus beatae ipsa optio vel
               distinctio necessitatibus!
             </p>
-            <a href="#" class="btn btn-primary">BUY NOW</a>
+            <a href="#" class="btn btn-primary">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i> BUY NOW</a
+            >
           </div>
-          <div class="col-sm-12 col-12 col-lg-6 mt-5">
+          <div class="col-sm-12 col-12 col-lg-5 mt-2">
             <img class="ms-lg-5" src="images/model.png" alt="" />
           </div>
         </div>
@@ -100,85 +114,141 @@
     </section>
     <!-- women section -->
     <section class="container my-5">
-      <h1
-        style="
-          color: #363958;
-          font-size: 48px;
-          font-weight: 700;
-          font-family: Bebas;
-        "
-      >
+      <h1 style="color: #363958; font-size: 48px; font-weight: 700">
         WOMAN JACKET
       </h1>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col-12 col-sm-12">
-          <div class="card h-100 p-3">
+          <div class="card h-100 p-3 rounded-3 shadow">
             <img
               style="background-color: #f1f1f1"
               src="images/jacket-1.png"
-              width="293"
-              height="293"
+              width="293px"
+              height="293px"
               class="card-img-top border border-1 border-dark rounded-3 p-2"
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Yellow Coat Jacket</h5>
-              <p class="card-text">
+              <h5
+                class="card-title"
+                style="color: #363958; font-size: 24px; font-weight: 700"
+              >
+                Yellow Coat Jacket
+              </h5>
+              <p
+                class="card-text"
+                style="color: #3e3e3e; font-size: 16px; font-weight: 400"
+              >
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
               </p>
             </div>
-            <div class="card-footer d-flex justify-content-between">
-              <h4>$234</h4>
-              <a href="#" class="btn btn-primary">BUY NOW</a>
+            <div
+              class="card-footer d-flex justify-content-between align-items-center rounded-3"
+            >
+              <h4>
+                <span style="color: #fabe4c; font-weight: 900; font-size: 36px"
+                  >$234</span
+                >
+              </h4>
+              <a
+                href="#"
+                class="btn btn-primary"
+                style="font-size: 16px; font-weight: 500"
+              >
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i> BUY
+                NOW</a
+              >
             </div>
           </div>
         </div>
         <div class="col-12 col-sm-12">
-          <div class="card h-100 p-3">
+          <div class="card h-100 p-3 rounded-3 shadow">
             <img
               style="background-color: #f1f1f1"
               src="images/jacket-2.png"
               width="203px"
-              height="273px"
+              height="293px"
               class="card-img-top border border-1 border-dark rounded-3 p-2"
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Ladies Jacket</h5>
-              <p class="card-text">
+              <h5
+                class="card-title"
+                style="color: #363958; font-size: 24px; font-weight: 700"
+              >
+                Ladies Jacket
+              </h5>
+              <p
+                class="card-text"
+                style="color: #3e3e3e; font-size: 16px; font-weight: 400"
+              >
                 This card has supporting text below as a natural lead-in to
                 additional content.
               </p>
             </div>
-            <div class="card-footer d-flex justify-content-between">
-              <h4>$234</h4>
-              <a href="#" class="btn btn-primary">BUY NOW</a>
+            <div
+              class="card-footer d-flex justify-content-between align-items-center rounded-3"
+            >
+              <h4>
+                <span style="color: #fabe4c; font-weight: 900; font-size: 36px"
+                  >$234</span
+                >
+              </h4>
+              <a
+                href="#"
+                class="btn btn-primary"
+                style="font-size: 16px; font-weight: 500"
+              >
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i> BUY
+                NOW</a
+              >
             </div>
           </div>
         </div>
         <div class="col-12 col-sm-12">
-          <div class="card h-100 p-3">
+          <div class="card h-100 p-3 rounded-3 shadow">
             <img
               style="background-color: #f1f1f1"
               src="images/jacket-3.png"
               width="210px"
-              height="257px"
+              height="293px"
               class="card-img-top border border-1 border-dark rounded-3 p-2"
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
+              <h5
+                class="card-title"
+                style="color: #363958; font-size: 24px; font-weight: 700"
+              >
+                Woman Leather Jacket
+              </h5>
+              <p
+                class="card-text"
+                style="color: #3e3e3e; font-size: 16px; font-weight: 400"
+              >
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This card has even longer content
                 than the first to show that equal height action.
               </p>
             </div>
-            <div class="card-footer d-flex justify-content-between">
-              <h4>$234</h4>
-              <a href="#" class="btn btn-primary">BUY NOW</a>
+            <div
+              class="card-footer d-flex justify-content-between align-items-center rounded-3"
+            >
+              <h4>
+                <span style="color: #fabe4c; font-weight: 900; font-size: 36px"
+                  >$234</span
+                >
+              </h4>
+              <a
+                href="#"
+                class="btn btn-primary"
+                style="font-size: 16px; font-weight: 500"
+              >
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i> BUY
+                NOW</a
+              >
             </div>
           </div>
         </div>
@@ -187,90 +257,237 @@
 
     <!-- men section -->
     <section class="container my-5">
-      <h1
-        style="
-          color: #363958;
-          font-size: 48px;
-          font-weight: 700;
-          font-family: Bebas;
-        "
-      >
+      <h1 style="color: #363958; font-size: 48px; font-weight: 700">
         MAN JACKET
       </h1>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col-12 col-sm-12">
-          <div class="card h-100 p-3">
+          <div class="card h-100 p-3 shadow">
             <img
               style="background-color: #f1f1f1"
               src="images/jacket-4.png"
-              width="293"
-              height="293"
+              width="293px"
+              height="293px"
               class="card-img-top border border-1 border-dark rounded-3 p-2"
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Snowboard Jacket Mens</h5>
-              <p class="card-text">
+              <h5
+                class="card-title"
+                style="color: #363958; font-size: 24px; font-weight: 700"
+              >
+                Snowboard Jacket Mens
+              </h5>
+              <p
+                class="card-text"
+                style="color: #3e3e3e; font-size: 16px; font-weight: 400"
+              >
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
               </p>
             </div>
-            <div class="card-footer d-flex justify-content-between">
-              <h4>$234</h4>
-              <a href="#" class="btn btn-primary">BUY NOW</a>
+            <div
+              class="card-footer d-flex justify-content-between align-items-center rounded-3"
+            >
+              <h4>
+                <span style="color: #fabe4c; font-weight: 900; font-size: 36px"
+                  >$234</span
+                >
+              </h4>
+              <a
+                href="#"
+                class="btn btn-primary"
+                style="font-size: 16px; font-weight: 500"
+              >
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i> BUY
+                NOW</a
+              >
             </div>
           </div>
         </div>
         <div class="col-12 col-sm-12">
-          <div class="card h-100 p-3">
+          <div class="card h-100 p-3 shadow">
             <img
               style="background-color: #f1f1f1"
               src="images/jacket-5.png"
               width="203px"
-              height="273px"
+              height="293px"
               class="card-img-top border border-1 border-dark rounded-3 p-2"
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Man Leather Jackets</h5>
-              <p class="card-text">
+              <h5
+                class="card-title"
+                style="color: #363958; font-size: 24px; font-weight: 700"
+              >
+                Man Leather Jackets
+              </h5>
+              <p
+                class="card-text"
+                style="color: #3e3e3e; font-size: 16px; font-weight: 400"
+              >
                 This card has supporting text below as a natural lead-in to
                 additional content.
               </p>
             </div>
-            <div class="card-footer d-flex justify-content-between">
-              <h4>$234</h4>
-              <a href="#" class="btn btn-primary">BUY NOW</a>
+            <div
+              class="card-footer d-flex justify-content-between align-items-center rounded-3"
+            >
+              <h4>
+                <span style="color: #fabe4c; font-weight: 900; font-size: 36px"
+                  >$234</span
+                >
+              </h4>
+              <a
+                href="#"
+                class="btn btn-primary"
+                style="font-size: 16px; font-weight: 500"
+              >
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i> BUY
+                NOW</a
+              >
             </div>
           </div>
         </div>
         <div class="col-12 col-sm-12">
-          <div class="card h-100 p-3">
+          <div class="card h-100 p-3 shadow">
             <img
               style="background-color: #f1f1f1"
               src="images/jacket-6.png"
               width="210px"
-              height="257px"
+              height="293px"
               class="card-img-top border border-1 border-dark rounded-3 p-2"
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Man Casual Jackets</h5>
-              <p class="card-text">
+              <h5
+                class="card-title"
+                style="color: #363958; font-size: 24px; font-weight: 700"
+              >
+                Man Casual Jackets
+              </h5>
+              <p
+                class="card-text"
+                style="color: #3e3e3e; font-size: 16px; font-weight: 400"
+              >
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This card has even longer content
                 than the first to show that equal height action.
               </p>
             </div>
-            <div class="card-footer d-flex justify-content-between">
-              <h4>$234</h4>
-              <a href="#" class="btn btn-primary">BUY NOW</a>
+            <div
+              class="card-footer d-flex justify-content-between align-items-center rounded-3"
+            >
+              <h4>
+                <span style="color: #fabe4c; font-weight: 900; font-size: 36px"
+                  >$234</span
+                >
+              </h4>
+              <a
+                href="#"
+                class="btn btn-primary"
+                style="font-size: 16px; font-weight: 500"
+              >
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i> BUY
+                NOW</a
+              >
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- other section -->
+    <section class="container my-5">
+      <div class="d-lg-flex align-content-center">
+        <div class="mt-5">
+          <div class="card mb-3">
+            <div
+              class="row gx-0 ms-3 d-flex justify-content-center align-items-center"
+            >
+              <div class="col-md-2">
+                <img
+                  width="77"
+                  height="82"
+                  src="icons/image 12.png"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-10">
+                <div class="card-body">
+                  <h5 class="card-title">Find the Perfect Fit</h5>
+                  <p class="card-text">
+                    Everybody is different, which is why we offer styles for
+                    every body.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div
+              class="row g-0 ms-3 d-flex justify-content-center align-items-center"
+            >
+              <div class="col-md-2">
+                <img
+                  width="77"
+                  height="82"
+                  src="icons/image 13.png"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-10">
+                <div class="card-body">
+                  <h5 class="card-title">Free Exchanges</h5>
+                  <p class="card-text">
+                    One of the many reasons you can shop with peace of mind.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div
+              class="row g-0 ms-3 d-flex justify-content-center align-items-center"
+            >
+              <div class="col-md-2">
+                <img
+                  width="77"
+                  height="82"
+                  src="icons/image 14.png"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-10">
+                <div class="card-body">
+                  <h5 class="card-title">Contact Our Seller</h5>
+                  <p class="card-text">
+                    They are here to help you. That's quite literally what we
+                    pay them for.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 ms-5 mt-5">
+          <img class="img-fluid" src="images/shopping.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer
+      class="container-fluid mb-0 bg-dark d-flex justify-content-center align-items-center"
+      style="height: 100px"
+    >
+      <p class="mb-0 text-white">
+        All Right Reserved | Penguin Fashion
+        <i class="fa fa-copyright" aria-hidden="true"></i> 2022.
+      </p>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
